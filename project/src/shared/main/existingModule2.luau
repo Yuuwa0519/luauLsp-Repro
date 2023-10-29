@@ -1,0 +1,1 @@
+return "New Module"

@@ -1,0 +1,42 @@
+{
+    "name": "Castle Town",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "game": {
+                "$className": "Folder",
+                "main": {
+                    "$path": "src/client/main"
+                }
+            },
+            "shared": {
+                "$className": "Folder",
+                "main": {
+                    "$path": "src/shared/main"
+                }
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "server": {
+                "$path": "src/gameStart/server"
+            },
+            "game": {
+                "$className": "Folder",
+                "main": {
+                    "$path": "src/server/main"
+                }
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "client": {
+                    "$path": "src/gameStart/client"
+                }
+            }
+        }
+    }
+}
